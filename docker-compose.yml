@@ -73,10 +73,12 @@ services:
 
   ohdsi-webapi:
     container_name: ohdsi-webapi
-    image: docker.io/ohdsi/webapi:latest
+    image: ghcr.io/venkyvb/webapi-spark:latest
     restart: unless-stopped
     ipc: none
     read_only: true
+    volumes:
+      - .:/tmp/drivers/:ro
     tmpfs:
       - /tmp
     privileged: false
