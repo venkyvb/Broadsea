@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="impala">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/impala/hive_metastore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/slf4j-log4j12-1.5.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/zookeeper-3.4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/hive_service.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/libthrift-0.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/slf4j-api-1.5.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/TCLIServiceClient.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/httpclient-4.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/log4j-1.2.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/ql.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/httpcore-4.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/commons-codec-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/ImpalaJDBC4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/impala/libfb303-0.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
