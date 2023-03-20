@@ -6,3 +6,5 @@ To enable Broadsea deployment to connect to CDM in Databricks lakehouse the foll
   - Once these changes are done - build a docker image (e.g. `ghcr.io/venkyvb/webapi-spark`) and push the image to a container registry (e.g. Github Container registry)
 
 * The changes in the current fork where the `docker-compose.yml` uses the new container image from above (e.g. `ghcr.io/venkyvb/webapi-spark`) instead of the `ohdsi/webapi` image.
+
+The testing has been done with Azure Databricks. Note that the parameter `UseNativeQuery=1` should be set as a part of the connection parameters.
