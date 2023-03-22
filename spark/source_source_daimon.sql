@@ -1,6 +1,6 @@
-truncate ohdsi.source;
+truncate webapi.source cascade;
 
-truncate ohdsi.source_daimon;
+truncate webapi.source_daimon cascade;
 
 INSERT INTO
     webapi.source(
@@ -15,7 +15,7 @@ VALUES (
         7,
         'ADB_OMOP_7',
         'ADB_OMOP_7',
-        'jdbc:spark://adb-xxxxxxxxxxxxxxx.10.azuredatabricks.net:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/xxxxxxxxxxxxxxx/0309-002413-fvrlr7m3;AuthMech=3;UseNativeQuery=1;UID=token;PWD=<personal_access_token>',
+        'jdbc:spark://adb-xxxxxxxxxxxxxxx.10.azuredatabricks.net:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/xxxxxxxxxxxxxxx/<some_path>;AuthMech=3;UseNativeQuery=1;UID=token;PWD=<personal_access_token>',
         'spark',
         true
     );
